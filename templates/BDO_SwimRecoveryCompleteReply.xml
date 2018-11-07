@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<BDOMessage xmlns="urn:brazil:lnp:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <messageHeader>
+    <service_prov_id>SPID</service_prov_id>
+    <invoke_id>0</invoke_id>
+    <message_date_time>DDDDDD</message_date_time>
+  </messageHeader>
+
+  <messageContent>
+    <BDRtoBDO>
+      <SwimRecoveryCompleteReply>
+        <status>success</status>
+      </SwimRecoveryCompleteReply>
+    </BDRtoBDO>
+  </messageContent>
+
+</BDOMessage>

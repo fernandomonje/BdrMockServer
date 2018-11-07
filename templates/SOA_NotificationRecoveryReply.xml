@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SOAMessage xmlns="urn:brazil:lnp:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <messageHeader>
+    <service_prov_id>SPID</service_prov_id>
+    <invoke_id>0</invoke_id>
+    <message_date_time>DDDDDD</message_date_time>
+  </messageHeader>
+
+  <messageContent>
+    <BDRtoSOA>
+      <NotificationRecoveryReply>
+        <recovery_reply_status>success</recovery_reply_status>
+        <action_id>SSSSSS</action_id>
+      </NotificationRecoveryReply>
+    </BDRtoSOA>
+  </messageContent>
+
+</SOAMessage>

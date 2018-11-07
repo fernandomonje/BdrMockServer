@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<BDOMessage xmlns="urn:brazil:lnp:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <messageHeader>
+    <service_prov_id>SPID</service_prov_id>
+    <invoke_id>0</invoke_id>
+    <message_date_time>DDDDDD</message_date_time>
+  </messageHeader>
+
+  <messageContent>
+    <BDRtoBDO>
+      <DownloadRecoveryReply>
+        <status>no-data-selected</status>
+        <error_reason>
+          <error_number>5047</error_number>
+          <error_info>No records found.</error_info>
+        </error_reason>
+        <action_id>SSSSSS</action_id>
+      </DownloadRecoveryReply>
+    </BDRtoBDO>
+  </messageContent>
+
+</BDOMessage>
